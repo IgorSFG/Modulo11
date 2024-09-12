@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Ring-Counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Memory Address Register.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ULA.dig</elementName>
+      <elementAttributes/>
+      <pos x="1120" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Acumulator.dig</elementName>
+      <elementAttributes/>
+      <pos x="1120" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register B.dig</elementName>
+      <elementAttributes/>
+      <pos x="880" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register OUT.dig</elementName>
+      <elementAttributes/>
+      <pos x="880" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Instruction Register.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="820"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
