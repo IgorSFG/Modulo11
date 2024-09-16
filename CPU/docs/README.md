@@ -1,4 +1,4 @@
-# CPU Simulafor
+# CPU Simulator
 O projeto consiste na simulação de uma CPU simples na aplicação Digital.
 
 ### Vídeo explicativo da Ponderada 1:
