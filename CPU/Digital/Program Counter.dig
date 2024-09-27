@@ -39,16 +39,11 @@
       <pos x="300" y="-40"/>
     </visualElement>
     <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes/>
-      <pos x="400" y="40"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>NClr</string>
+          <string>Clr</string>
         </entry>
       </elementAttributes>
       <pos x="300" y="40"/>
@@ -309,12 +304,8 @@
       <p2 x="760" y="40"/>
     </wire>
     <wire>
-      <p1 x="440" y="40"/>
-      <p2 x="680" y="40"/>
-    </wire>
-    <wire>
       <p1 x="300" y="40"/>
-      <p2 x="400" y="40"/>
+      <p2 x="680" y="40"/>
     </wire>
     <wire>
       <p1 x="960" y="40"/>
