@@ -127,10 +127,10 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="1"/>
+          <rotation rotation="2"/>
         </entry>
       </elementAttributes>
-      <pos x="680" y="100"/>
+      <pos x="740" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -170,6 +170,16 @@
       </elementAttributes>
       <pos x="1180" y="-100"/>
     </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-40"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -201,12 +211,12 @@
       <p2 x="1140" y="100"/>
     </wire>
     <wire>
-      <p1 x="680" y="100"/>
-      <p2 x="740" y="100"/>
+      <p1 x="700" y="100"/>
+      <p2 x="760" y="100"/>
     </wire>
     <wire>
-      <p1 x="740" y="100"/>
-      <p2 x="760" y="100"/>
+      <p1 x="300" y="-40"/>
+      <p2 x="700" y="-40"/>
     </wire>
     <wire>
       <p1 x="820" y="40"/>
@@ -281,20 +291,16 @@
       <p2 x="760" y="220"/>
     </wire>
     <wire>
-      <p1 x="1220" y="-100"/>
-      <p2 x="1220" y="60"/>
-    </wire>
-    <wire>
       <p1 x="740" y="-120"/>
       <p2 x="740" y="20"/>
     </wire>
     <wire>
-      <p1 x="740" y="100"/>
-      <p2 x="740" y="180"/>
-    </wire>
-    <wire>
       <p1 x="740" y="180"/>
       <p2 x="740" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="240"/>
+      <p2 x="740" y="280"/>
     </wire>
     <wire>
       <p1 x="740" y="200"/>
@@ -303,6 +309,10 @@
     <wire>
       <p1 x="740" y="220"/>
       <p2 x="740" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="-100"/>
+      <p2 x="1220" y="60"/>
     </wire>
     <wire>
       <p1 x="580" y="140"/>
@@ -351,6 +361,10 @@
     <wire>
       <p1 x="1180" y="-100"/>
       <p2 x="1180" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-40"/>
+      <p2 x="700" y="100"/>
     </wire>
   </wires>
   <measurementOrdering/>

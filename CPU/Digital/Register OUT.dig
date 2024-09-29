@@ -202,16 +202,6 @@
       <pos x="540" y="300"/>
     </visualElement>
     <visualElement>
-      <elementName>Ground</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-      </elementAttributes>
-      <pos x="700" y="100"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -268,6 +258,16 @@
       <pos x="380" y="300"/>
     </visualElement>
     <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-40"/>
+    </visualElement>
+    <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
       <pos x="720" y="-60"/>
@@ -289,6 +289,10 @@
     <wire>
       <p1 x="700" y="100"/>
       <p2 x="760" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-40"/>
+      <p2 x="700" y="-40"/>
     </wire>
     <wire>
       <p1 x="820" y="40"/>
@@ -433,6 +437,10 @@
     <wire>
       <p1 x="380" y="240"/>
       <p2 x="380" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-40"/>
+      <p2 x="700" y="100"/>
     </wire>
   </wires>
   <measurementOrdering/>

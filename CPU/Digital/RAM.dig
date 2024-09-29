@@ -156,16 +156,6 @@
       <pos x="-60" y="-80"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Clr</string>
-        </entry>
-      </elementAttributes>
-      <pos x="620" y="-40"/>
-    </visualElement>
-    <visualElement>
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
@@ -552,6 +542,16 @@
         </entry>
       </elementAttributes>
       <pos x="-60" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="-40"/>
     </visualElement>
   </visualElements>
   <wires>
