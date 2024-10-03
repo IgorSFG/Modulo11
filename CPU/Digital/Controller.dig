@@ -143,7 +143,7 @@
           <string>NEi</string>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="1060"/>
+      <pos x="1140" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1264,15 +1264,29 @@ T7: HLT</string>
         </entry>
         <entry>
           <string>Inputs</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="900"/>
+      <pos x="1180" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
       <pos x="300" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Op</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="1060"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1282,19 +1296,19 @@ T7: HLT</string>
     </wire>
     <wire>
       <p1 x="420" y="260"/>
-      <p2 x="1220" y="260"/>
+      <p2 x="1160" y="260"/>
     </wire>
     <wire>
       <p1 x="2040" y="260"/>
       <p2 x="2740" y="260"/>
     </wire>
     <wire>
-      <p1 x="1220" y="260"/>
-      <p2 x="1540" y="260"/>
-    </wire>
-    <wire>
       <p1 x="2740" y="260"/>
       <p2 x="2880" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="260"/>
+      <p2 x="1540" y="260"/>
     </wire>
     <wire>
       <p1 x="1540" y="260"/>
@@ -1458,6 +1472,10 @@ T7: HLT</string>
     </wire>
     <wire>
       <p1 x="420" y="280"/>
+      <p2 x="1180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="280"/>
       <p2 x="4560" y="280"/>
     </wire>
     <wire>
@@ -1597,12 +1615,16 @@ T7: HLT</string>
       <p2 x="680" y="220"/>
     </wire>
     <wire>
-      <p1 x="680" y="220"/>
-      <p2 x="1180" y="220"/>
+      <p1 x="1100" y="220"/>
+      <p2 x="1240" y="220"/>
     </wire>
     <wire>
-      <p1 x="1180" y="220"/>
+      <p1 x="1240" y="220"/>
       <p2 x="4720" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="220"/>
+      <p2 x="1100" y="220"/>
     </wire>
     <wire>
       <p1 x="420" y="160"/>
@@ -1745,16 +1767,16 @@ T7: HLT</string>
       <p2 x="4640" y="240"/>
     </wire>
     <wire>
-      <p1 x="1200" y="240"/>
-      <p2 x="1300" y="240"/>
-    </wire>
-    <wire>
       <p1 x="1300" y="240"/>
       <p2 x="3560" y="240"/>
     </wire>
     <wire>
+      <p1 x="1120" y="240"/>
+      <p2 x="1300" y="240"/>
+    </wire>
+    <wire>
       <p1 x="860" y="240"/>
-      <p2 x="1200" y="240"/>
+      <p2 x="1120" y="240"/>
     </wire>
     <wire>
       <p1 x="280" y="180"/>
@@ -2093,6 +2115,10 @@ T7: HLT</string>
       <p2 x="3660" y="900"/>
     </wire>
     <wire>
+      <p1 x="1100" y="220"/>
+      <p2 x="1100" y="900"/>
+    </wire>
+    <wire>
       <p1 x="3920" y="260"/>
       <p2 x="3920" y="540"/>
     </wire>
@@ -2161,6 +2187,10 @@ T7: HLT</string>
       <p2 x="3680" y="580"/>
     </wire>
     <wire>
+      <p1 x="1120" y="240"/>
+      <p2 x="1120" y="900"/>
+    </wire>
+    <wire>
       <p1 x="3940" y="660"/>
       <p2 x="3940" y="900"/>
     </wire>
@@ -2225,6 +2255,10 @@ T7: HLT</string>
       <p2 x="2420" y="580"/>
     </wire>
     <wire>
+      <p1 x="1140" y="1000"/>
+      <p2 x="1140" y="1060"/>
+    </wire>
+    <wire>
       <p1 x="3960" y="340"/>
       <p2 x="3960" y="580"/>
     </wire>
@@ -2279,6 +2313,10 @@ T7: HLT</string>
     <wire>
       <p1 x="3460" y="660"/>
       <p2 x="3460" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="260"/>
+      <p2 x="1160" y="900"/>
     </wire>
     <wire>
       <p1 x="3720" y="540"/>
@@ -2349,7 +2387,7 @@ T7: HLT</string>
       <p2 x="2460" y="580"/>
     </wire>
     <wire>
-      <p1 x="1180" y="220"/>
+      <p1 x="1180" y="280"/>
       <p2 x="1180" y="900"/>
     </wire>
     <wire>
@@ -2413,14 +2451,6 @@ T7: HLT</string>
       <p2 x="3760" y="580"/>
     </wire>
     <wire>
-      <p1 x="1200" y="240"/>
-      <p2 x="1200" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1200" y="1000"/>
-      <p2 x="1200" y="1060"/>
-    </wire>
-    <wire>
       <p1 x="4020" y="660"/>
       <p2 x="4020" y="680"/>
     </wire>
@@ -2473,10 +2503,6 @@ T7: HLT</string>
       <p2 x="2500" y="580"/>
     </wire>
     <wire>
-      <p1 x="1220" y="260"/>
-      <p2 x="1220" y="900"/>
-    </wire>
-    <wire>
       <p1 x="4040" y="360"/>
       <p2 x="4040" y="580"/>
     </wire>
@@ -2527,6 +2553,10 @@ T7: HLT</string>
     <wire>
       <p1 x="2520" y="660"/>
       <p2 x="2520" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="220"/>
+      <p2 x="1240" y="1060"/>
     </wire>
     <wire>
       <p1 x="4060" y="780"/>
